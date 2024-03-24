@@ -4,12 +4,12 @@ const nextConfig = {
     async redirects(){
       return [
         {
-          source: '/cosmiccowboys',
-          destination: 'https://cosmiccowboys.cloud',
+          source: '/test',
+          destination: 'https://test.cloud',
           permanent: false
         },
         {
-          source: '/pinatacloud',
+          source: '/test2',
           destination: 'https://www.pinata.cloud/blog/how-to-make-a-frame-on-farcaster-using-ipfs',
           permanent: false
         },
